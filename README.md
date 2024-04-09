@@ -21,11 +21,11 @@ tbxmanager
 savepath
 tbxmanager restorepath
 ```
-It's recommended to save the path where the tbxmanager is installed to MATLAB.
+   It's recommended to save the path where the tbxmanager is installed to MATLAB.
 
 2. Install **YALMIP** using tbxmanager [https://yalmip.github.io/tutorial/installation/]
 
-tbxmanager install yalmip
+```tbxmanager install yalmip```
 
 3. Install **CORA** using MATLAB Add-On Explorer (A Toolbox for Reachability Analysis) [https://tumcps.github.io/CORA/]
 

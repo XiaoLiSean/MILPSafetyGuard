@@ -4,11 +4,13 @@ This repository documents the codebase for simulations presented in the 6th Annu
  
 Please cite as:
 ```
-@article{li2023system,
-  title={System-level Safety Guard: Safe Tracking Control through Uncertain Neural Network Dynamics Models},
+@inproceedings{li2024system,
+  title={System-level safety guard: Safe tracking control through uncertain neural network dynamics models},
   author={Li, Xiao and Li, Yutong and Girard, Anouck and Kolmanovsky, Ilya},
-  journal={arXiv preprint arXiv:2312.06810},
-  year={2023}
+  booktitle={6th Annual Learning for Dynamics \& Control Conference},
+  pages={968--979},
+  year={2024},
+  organization={PMLR}
 }
 ```
 

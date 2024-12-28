@@ -52,10 +52,10 @@ classdef ominidirectionalRobot < matlab.mixin.Copyable
             obj.initializeDynamicSystem(x0)
             
             % Define simple system
-            obj.NN.Weights{1}   = diag([1,1,-1,-1]);
-            obj.NN.Weights{2}   = [eye(2), -eye(2)];
-            obj.NN.biases{1}    = [0;0;100;100];
-            obj.NN.biases{2}    = [100;100];
+            obj.NN.Weights{1}   = diag([-1,-1,-1,-1]);
+            obj.NN.Weights{2}   = [-eye(2), -eye(2)];
+            obj.NN.biases{1}    = [50;50;50;50];
+            obj.NN.biases{2}    = [100;100];    
         end
         % =================================================================
         % Initialize the state and measurement with x0
